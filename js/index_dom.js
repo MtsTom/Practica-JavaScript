@@ -11,7 +11,7 @@ d.addEventListener('DOMContentLoaded', (e) => {
   digitalClock('#reloj', '#activar-reloj', '#desactivar-reloj');
   alarm('assets/alarma.mp3', '#activar-alarma', '#desactivar-alarma');
   countdown('countdown', 'Nov 25, 2023 03:23:19', 'Feliz cumpleaños 🤓');
-  scrollTopButton;
+  scrollTopButton('.scroll-top-btn');
 });
 
 d.addEventListener('keydown', (e) => {
