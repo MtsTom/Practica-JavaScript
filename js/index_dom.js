@@ -11,12 +11,13 @@ d.addEventListener('DOMContentLoaded', (e) => {
   hamburgerMenu('.panel-btn', '.panel', '.menu a');
   digitalClock('#reloj', '#activar-reloj', '#desactivar-reloj');
   alarm('assets/alarma.mp3', '#activar-alarma', '#desactivar-alarma');
-  countdown('countdown', 'Nov 25, 2023 03:23:19', 'Feliz cumpleaños 🤓');
+  countdown('countdown', 'Nov 25, 2022 03:23:19', 'Feliz cumpleaños 🤓');
   scrollTopButton('.scroll-top-btn');
-  darkTheme('.dark-theme-btn', 'dark-mode');
 });
 
 d.addEventListener('keydown', (e) => {
   shortcuts(e);
   moveBall(e, '.ball', '.stage');
 });
+
+darkTheme('.dark-theme-btn', 'dark-mode');
