@@ -28,4 +28,4 @@ const getWinnerComment = (selector) => {
   return `El ganador es: ${winner.textContent}`;
 };
 //para youtube
-getWinnerComment('ytd-comment-thread-renderer #author-text span');
+//getWinnerComment('ytd-comment-thread-renderer #author-text span');
